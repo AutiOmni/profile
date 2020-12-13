@@ -1,0 +1,335 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Padauk', sans-serif;
+    background-color: #232325;
+}
+
+/* ------ HEADER --------- */
+
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color:  rgba(173, 216, 230, 0.1);
+    position: fixed;
+}
+
+#navbar {
+    color: #fff;
+    height: 10vh;
+    width: 25%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a:hover {
+
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2em;
+    
+}
+
+
+/* ------ INTRO --------- */
+
+
+.intro {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, #232325, #add8f6)
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: 0 0 2px #000;
+}
+
+span {
+    font-size: 2.75rem;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    span {
+        font-size: 1.25rem;
+    }
+}
+
+
+.fade-one {
+    animation-name: fadeone;
+    animation-duration: 30000ms;
+    animation-delay: 750ms;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeone {
+    0% {
+        opacity: 0;
+    }
+
+    2% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-two {
+    animation-name: fadetwo;
+    animation-duration: 30000ms;
+    animation-delay: 1400ms;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadetwo {
+    0% {
+        opacity: 0;
+    }
+
+    3% {
+        opacity: 1;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
+.fade-three {
+    animation-name: fadethree;
+    animation-duration: 30000ms;
+    animation-delay: 2100ms;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadethree {
+    0% {
+        opacity: 0;
+    }
+
+    4% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* ------- PORT ------*/
+
+.portfolio {
+    height: 280vh;
+    width: 100%;
+    border-bottom: 5px solid  #232325;
+    margin-top: 2.5em;
+}
+
+.left-port {
+    position: sticky;
+    top: 10vh;
+    float: left;
+    width: 40%;
+    height: 90vh;
+    color: #fff;
+    background-color: #232325; 
+    font-size: 2rem;
+    text-shadow: 0 0 2px #000;
+}
+
+.left-port h2 {
+    position: absolute;
+    z-index: 2;
+    top: 44%;
+    right: 8.5%;
+}
+
+.left-port img {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 35%;
+    right: 6%;
+}
+
+@media (max-width: 1200px) {
+    .left-port h2 {
+        font-size: 1.25em;
+    }
+
+    .left-port img {
+        width: 175px;
+        top: 35%;
+        right: 6.5%;
+    }
+}
+
+.right-port {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.port {
+    width: 100%;
+}
+
+
+
+.port img   {
+    width: 100%;
+    height: 60vh;
+    display: block;
+}
+
+#project-title {
+    height: 10vh;
+    width: 100%;
+    background-color: #232325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    font-size: 1.5rem;
+}
+
+#project-title span {
+    font-size: 2rem;
+   
+    color: #232325;
+    transition: all ease-in-out 500ms;
+}
+
+.port:hover span {
+    color: #add8e6 !important;
+}
+
+#typewriter {
+    margin: 0em 0em;
+    padding: 0;
+    animation-name: type;
+    animation-duration: 750ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes type {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 800px) {
+    .left-port h2 {
+        font-size: .5em;
+    }
+
+    .left-port img {
+        width: 70px;
+        top: 40.5%;
+        right: 5.5%;
+    }
+
+}
+
+/* ------- CONTACT ------ */
+
+.contact {
+    height: 75vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #232325, #add8f6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact div {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 5rem;
+}
+
+.contact div h3 {
+    margin: 0em 1.5em 0em 1.5em;
+    font-size: 2rem;
+}
+
+.contact div img {
+    width: 50px;
+    height: auto;
+}
+
+.contact-links {
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    bottom: 2.5vh;
+    margin: 0 auto;
+}
+
+.contact-links a {
+    width: 20%;
+    padding: 1em 2em;
+    font-size: 1.25em;
+    text-align: center;
+    transition: all ease-in-out 500ms;
+}
+
+.contact-links a:hover {
+    transform: translateY(-10px);
+}
+
+i {
+    margin: 0.75em;
+}
