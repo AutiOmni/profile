@@ -243,13 +243,13 @@ span {
 
 @media (max-width: 1200px) {
     .left-port h2 {
-        font-size: 1.25em;
+        font-size: .90em;
     }
 
     .left-port img {
-        width: 175px;
-        top: 35%;
-        right: 6.5%;
+        width: 310px;
+        top: 23%;
+        right: 7%;
     }
 }
 
