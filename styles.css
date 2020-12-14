@@ -314,11 +314,13 @@ span {
 
 @media (max-width: 800px) {
     .left-port h2 {
-        font-size: .5em;
+        font-size: .50em;
+        left: 20%;
+        top: 40%;
     }
 
     .left-port img {
-        width: 175px;
+        width: 150px;
         top: 32%;
        right: 5%;
     }
@@ -328,7 +330,7 @@ span {
    }
 
    #project-title {
-       font-size: 1em;
+       font-size: .75em;
    }
 
    #project-title span {
