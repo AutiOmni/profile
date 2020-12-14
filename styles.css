@@ -251,6 +251,10 @@ span {
         top: 23%;
         right: 7%;
     }
+
+    .portfolio {
+        height: 230vh;
+    }
 }
 
 .right-port {
