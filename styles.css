@@ -331,6 +331,7 @@ span {
 
    .portfolio {
        height: 115vh;
+       text-align: center;
    }
 
    #project-title {
