@@ -415,44 +415,5 @@ text-align: center;
 width: 6%;
 font-size: 2.5em;
 margin: 0em .5em 0em .5em;
-animation-name: arrow;
-animation-duration: 1500ms;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
 color: #8a1e1e;
 }
-
-@keyframes arrow {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.arrowtwo {
-    display: inline-block;
-    text-align: center;
-    width: 6%;
-    font-size: 2.5em;
-    margin: 0em .5em 0em .5em;
-    animation-name: arrowtwo;
-    animation-delay: 750ms;
-    animation-duration: 1500ms;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    color: #8a1e1e;
-    opacity:0;
-    }
-    
-    @keyframes arrowtwo {
-        0% {
-            opacity: 0;
-        }
-    
-        100% {
-            opacity: 1;
-        }
-    }
