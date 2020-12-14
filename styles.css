@@ -429,8 +429,8 @@ i {
 
 .arrow {
 display: inline-block;
-text-align: center;
 width: 6%;
-margin: 0em .5em 0em .5em;
+margin: 0em .5em 0em 0em;
 color: #8a1e1e;
+
 }
