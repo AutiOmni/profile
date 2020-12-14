@@ -315,7 +315,7 @@ span {
 @media (max-width: 800px) {
     .left-port h2 {
         font-size: .50em;
-        left: 20%;
+        left: 35%;
         top: 40%;
     }
 
@@ -326,7 +326,7 @@ span {
     }
 
    .portfolio {
-       height: 150vh;
+       height: 115vh;
    }
 
    #project-title {
