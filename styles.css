@@ -319,7 +319,7 @@ span {
 @media (max-width: 800px) {
     .left-port h2 {
         font-size: .50em;
-        left: 34%;
+        left: 30%;
         top: 39%;
     }
 
@@ -330,7 +330,7 @@ span {
     }
 
    .portfolio {
-       height: 115vh;
+       height: 135vh;
        text-align: center;
    }
 
