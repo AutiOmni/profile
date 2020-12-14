@@ -319,8 +319,8 @@ span {
 @media (max-width: 800px) {
     .left-port h2 {
         font-size: .50em;
-        left: 35%;
-        top: 40%;
+        left: 34%;
+        top: 39%;
     }
 
     .left-port img {
