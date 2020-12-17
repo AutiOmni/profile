@@ -411,7 +411,7 @@ span {
 @media (max-width: 800px) {
 
     .contact {
-        height: 90vh;
+        height: 100vh;
     }
 
     .contact h2 {
