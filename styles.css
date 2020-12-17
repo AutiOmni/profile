@@ -252,9 +252,7 @@ span {
         right: 7%;
     }
 
-    .portfolio {
-        height: 100vh;
-    }
+  
 }
 
 .right-port {
@@ -330,7 +328,7 @@ span {
     }
 
    .portfolio {
-       height: 150vh;
+       height: 125vh;
        text-align: center;
    }
 
