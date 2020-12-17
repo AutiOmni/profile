@@ -253,7 +253,7 @@ span {
     }
 
     .portfolio {
-        height: 220vh;
+        height: 100vh;
     }
 }
 
@@ -330,7 +330,7 @@ span {
     }
 
    .portfolio {
-       height: 135vh;
+       height: 150vh;
        text-align: center;
    }
 
@@ -363,12 +363,6 @@ span {
     flex-direction: column;
     position: relative;
     z-index: 1;
-}
-
-@media (max-width: 800px) {
-    .contact {
-        height: 75vh;
-    }
 }
 
 .contact div {
