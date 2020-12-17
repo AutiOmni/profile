@@ -409,6 +409,11 @@ span {
 }
 
 @media (max-width: 800px) {
+
+    .contact {
+        height: 80vh;
+    }
+
     .contact h2 {
         font-size: 2.5em;
     }
