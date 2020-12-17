@@ -105,7 +105,7 @@ span {
 @media (max-width: 800px) {
 
     .link-pad {
-        height: 7.5vh;
+        height: 6vh;
     }
 
     header {
@@ -122,9 +122,9 @@ span {
     }
 
     #navbar a {
-        padding: 2em 1em 0em 1em;
+        padding: 2em 1.25em 0em 1.25em;
 
-        font-size: .75em;
+        font-size: .65em;
     }
 
     h1 {
@@ -214,7 +214,7 @@ span {
 
 /* ------- PORT ------*/
 .link-pad {
-    height: 10vh;
+    height: 7vh;
 }
 
 .portfolio {
