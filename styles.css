@@ -109,16 +109,16 @@ span {
     }
 
     header {
-        height: 7.5vh;
+        height: 6.5vh;
     }
 
     #navbar {
-        height: 7.5vh;
+        height: 6.5vh;
         float: left;
     }
 
     #navbar li {
-        height: 7.5vh;
+        height: 6.5vh;
     }
 
     #navbar a {
