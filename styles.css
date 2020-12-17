@@ -104,6 +104,10 @@ span {
 
 @media (max-width: 800px) {
 
+    .link-pad {
+        height: 7.5vh;
+    }
+
     header {
         height: 7.5vh;
     }
@@ -209,6 +213,9 @@ span {
 
 
 /* ------- PORT ------*/
+.link-pad {
+    height: 10vh;
+}
 
 .portfolio {
     height: 280vh;
