@@ -218,7 +218,7 @@ span {
 }
 
 .portfolio {
-    height: 280vh;
+    height: 350vh;
     width: 100%;
     border-bottom: 5px solid  #232325;
     margin-top: 2.5em;
@@ -338,7 +338,7 @@ span {
     }
 
    .portfolio {
-       height: 100vh;
+       height: 150vh;
        text-align: center;
    }
 
