@@ -227,6 +227,7 @@ span {
 .port {
     width: 100%;
     height: auto;
+
 }
 
 .left-port {
@@ -339,7 +340,7 @@ span {
     }
 
    .portfolio {
-       height: 120vh;
+       height: 110vh;
        text-align: center;
    }
 
