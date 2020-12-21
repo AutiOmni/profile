@@ -146,7 +146,7 @@ span {
     animation-name: fadeone;
     animation-duration: 30000ms;
     animation-delay: 750ms;
-    animation-iteration-count: infinite;
+    animation-iteration-count: one;
     opacity: 0;
     animation-timing-function: ease-in-out;
 }
@@ -169,7 +169,7 @@ span {
     animation-name: fadetwo;
     animation-duration: 30000ms;
     animation-delay: 1400ms;
-    animation-iteration-count: infinite;
+    animation-iteration-count: one;
     opacity: 0;
     animation-timing-function: ease-in-out;
 }
@@ -192,7 +192,7 @@ span {
     animation-name: fadethree;
     animation-duration: 30000ms;
     animation-delay: 2100ms;
-    animation-iteration-count: infinite;
+    animation-iteration-count: one;
     opacity: 0;
     animation-timing-function: ease-in-out;
 }
