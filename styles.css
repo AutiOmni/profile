@@ -271,7 +271,6 @@ span {
 }
 
 
-
 .port img   {
     width: 100%;
     height: auto;
@@ -320,8 +319,14 @@ span {
 }
 
 @media (max-width: 800px) {
+
+   .portfolio {
+    height: 120vh;
+    text-align: center;
+    }
+    
     .left-port h2 {
-        font-size: .75em;
+        font-size: .55em;
     }
 
     .project-contain {
@@ -329,10 +334,10 @@ span {
         width: 150px;
     }
 
-   .portfolio {
-       height: 120vh;
-       text-align: center;
-   }
+    .project-contain h2 {
+        font-size: .75em;
+    }
+
 
    #project-title {
        font-size: .75em;
