@@ -238,37 +238,30 @@ span {
     height: 90vh;
     color: #fff;
     background-color: #232325; 
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-shadow: 0 0 2px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.left-port h2 {
+
+.project-contain {
+    background-image: url(https://www.flaticon.com/svg/static/icons/svg/599/599422.svg);
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.project-contain h2 {
     position: absolute;
-    z-index: 2;
-    top: 44%;
-    right: 8.5%;
-}
-
-.left-port img {
-    position: absolute;
-    width: 200px;
-    height: auto;
-    top: 35%;
-    right: 6%;
-}
-
-@media (max-width: 1200px) {
-    .left-port h2 {
-        font-size: .90em;
-    }
-
-    .left-port img {
-        width: 310px;
-        top: 23%;
-        right: 7%;
-    }
-
-  
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -65%);
 }
 
 .right-port {
@@ -328,15 +321,12 @@ span {
 
 @media (max-width: 800px) {
     .left-port h2 {
-        font-size: .50em;
-        left: 30%;
-        top: 39%;
+        font-size: .75em;
     }
 
-    .left-port img {
+    .project-contain {
+        height: 150px;
         width: 150px;
-        top: 32%;
-       right: 5%;
     }
 
    .portfolio {
