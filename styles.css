@@ -24,8 +24,7 @@ header {
 #navbar {
     color: #fff;
     height: 10vh;
-    width: 40%;
-    float: left; 
+    width: 39%; 
 }
 
 #navbar a {
@@ -34,10 +33,12 @@ header {
    height: 100%;
    padding: 2.5em;
    margin: 0;
+   text-align: center;
 }
 
 #navbar li {
     height: 10vh;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -122,8 +123,7 @@ span {
     }
 
     #navbar a {
-        padding: 2em 1.25em 0em 1.25em;
-
+        padding: 2em 1em 0em 1em;
         font-size: .65em;
     }
 
