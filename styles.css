@@ -415,6 +415,21 @@ span {
     transition: all ease-in-out 500ms;
 }
 
+.contact-links a:hover {
+    transform: translateY(-10px);
+}
+
+i {
+    margin: 0.75em;
+}
+
+.arrow {
+display: inline-block;
+width: 6%;
+margin: 0em .5em 0em 0em;
+color: #8a1e1e;
+}
+
 @media (max-width: 800px) {
 
     .contact {
@@ -433,20 +448,8 @@ span {
         font-size: .75em;
     }
 
-}
-
-.contact-links a:hover {
-    transform: translateY(-10px);
-}
-
-i {
-    margin: 0.75em;
-}
-
-.arrow {
-display: inline-block;
-width: 6%;
-margin: 0em .5em 0em 0em;
-color: #8a1e1e;
+    .contact-links {
+        margin-bottom: 2em;
+    }
 
 }
