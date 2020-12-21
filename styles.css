@@ -324,10 +324,6 @@ span {
     height: 120vh;
     text-align: center;
     }
-    
-    .left-port h2 {
-        font-size: .55em;
-    }
 
     .project-contain {
         height: 150px;
@@ -421,6 +417,7 @@ span {
 
 i {
     margin: 0.75em;
+    display: block;
 }
 
 .arrow {
