@@ -218,7 +218,7 @@ span {
 }
 
 .portfolio {
-    height: 350vh;
+    height: 355vh;
     width: 100%;
     border-bottom: 5px solid  #232325;
     margin-top: 2.5em;
@@ -232,7 +232,7 @@ span {
 
 .left-port {
     position: sticky;
-    top: 10vh;
+    top: 0vh;
     float: left;
     width: 40%;
     height: 90vh;
@@ -278,7 +278,7 @@ span {
 }
 
 #project-title {
-    height: 10vh;
+    height: 10%;
     width: 100%;
     background-color: #232325;
     display: flex;
