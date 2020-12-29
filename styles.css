@@ -215,24 +215,37 @@ span {
 /* ------- PORT ------*/
 
 .portfolio {
-    height: 2115px;
+    height: 365vh;
     width: 100%;
     border-bottom: 5px solid  #232325;
-    margin-top: 2.5em;
 }
 
-.port {
-    width: 100%;
-    height: auto;
-
+@media (max-width: 1200px) {
+    .portfolio {
+        height: 300vh;
+    }
 }
+
+@media (max-width: 1000px) {
+    .portfolio {
+        height: 275vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .portfolio {
+        height: 250vh;
+    }
+}
+
+
 
 .left-port {
     position: sticky;
-    top: 0vh;
+    top: 25vh;
     float: left;
     width: 40%;
-    height: 500px;
+    height: auto;
     color: #fff;
     background-color: #232325; 
     font-size: 2.5rem;
@@ -241,6 +254,30 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.right-port {
+    width: 60%;
+    height: auto;
+    float: right;
+}
+
+
+.port img   {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#project-title {
+    height: 10vh;
+    width: 100%;
+    background-color: #232325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 
@@ -259,30 +296,6 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-40%, -65%);
-}
-
-.right-port {
-    width: 60%;
-    height: 100%;
-    float: right;
-}
-
-
-.port img   {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-#project-title {
-    height: 65px;
-    width: 100%;
-    background-color: #232325;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 1.5rem;
 }
 
 #project-title span {
@@ -317,7 +330,7 @@ span {
 @media (max-width: 800px) {
 
    .portfolio {
-    height: 830px;
+    height: 165vh;
     text-align: center;
     }
 
