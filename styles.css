@@ -213,12 +213,9 @@ span {
 
 
 /* ------- PORT ------*/
-.link-pad {
-    height: 7vh;
-}
 
 .portfolio {
-    height: 2045px;
+    height: 2115px;
     width: 100%;
     border-bottom: 5px solid  #232325;
     margin-top: 2.5em;
@@ -278,7 +275,7 @@ span {
 }
 
 #project-title {
-    height: 10%;
+    height: 65px;
     width: 100%;
     background-color: #232325;
     display: flex;
@@ -290,7 +287,6 @@ span {
 
 #project-title span {
     font-size: 2rem;
-   
     color: #232325;
     transition: all ease-in-out 500ms;
 }
