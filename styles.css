@@ -7,8 +7,16 @@
 body {
     font-family: 'Padauk', sans-serif;
     background-color: #232325;
-
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 
 /* ------ HEADER --------- */
 
