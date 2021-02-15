@@ -488,3 +488,13 @@ color: #8a1e1e;
         font-size: .65em;
     }
 }
+
+@media (max-width: 375px) {
+    .arrow {
+        margin: 0em 1em 0em 0em;
+    }
+
+    .catch-contain h3 {
+        font-size: .75rem;
+    }
+}
