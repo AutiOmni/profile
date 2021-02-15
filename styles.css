@@ -497,4 +497,13 @@ color: #8a1e1e;
     .catch-contain h3 {
         font-size: .75rem;
     }
+
+    .project-contain {
+        height:125px;
+        width: 125px;
+    }
+
+    .project-contain h2 {
+        font-size: .75em;
+    }
 }
