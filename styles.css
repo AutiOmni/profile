@@ -476,13 +476,14 @@ color: #8a1e1e;
         font-size: 1rem;
     }
 
-    .contact-links a {
-        font-size: .65em;
+    .contact-links i {
+        font-size: 1em;
+        padding: .5em 0;
+        display: block;
     }
 
     .contact-links {
         margin-bottom: 2em;
+        font-size: .65em;
     }
-    
-
 }
