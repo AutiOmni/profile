@@ -7,16 +7,8 @@
 body {
     font-family: 'Padauk', sans-serif;
     background-color: #232325;
+
 }
-
-body::-webkit-scrollbar {
-    display: none;
-  }
-
-html {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
 
 /* ------ HEADER --------- */
 
@@ -141,11 +133,7 @@ span {
 
     span {
         font-size: 1.25rem;
-    }
-
-  
-
-    
+    } 
 
 }
 
@@ -216,6 +204,16 @@ span {
 
     100% {
         opacity: 1;
+    }
+}
+
+@media (max-width: 375px) {
+    .intro span {
+        font-size: .4em;
+    }
+
+    .contact {
+        font-size: .5em;
     }
 }
 
@@ -465,7 +463,7 @@ color: #8a1e1e;
     }
 
     .contact-links a {
-        font-size: .75em;
+        font-size: .65em;
     }
 
     .contact-links {
