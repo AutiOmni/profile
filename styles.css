@@ -235,9 +235,8 @@ span {
 /* ------- PORT ------*/
 
 .portfolio {
-    height: 365vh;
-    width: 100%;
-    border-bottom: 5px solid  #232325;
+    height: 450vh;
+    width: 100vw;
 }
 
 @media (max-width: 1200px) {
@@ -264,8 +263,8 @@ span {
     position: sticky;
     top: 25vh;
     float: left;
-    width: 40%;
-    height: auto;
+    width: 39%;
+    height: 300px;
     color: #fff;
     background-color: #232325; 
     font-size: 2.5rem;
@@ -287,10 +286,12 @@ span {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
+    object-position: center;
 }
 
 #project-title {
-    height: 10vh;
+    height: 50px;
     width: 100%;
     background-color: #232325;
     display: flex;
