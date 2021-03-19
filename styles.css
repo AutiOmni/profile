@@ -10,74 +10,6 @@ body {
 
 }
 
-/* ------ HEADER --------- */
-
-
-header {
-    width: 100%;
-    height: 10vh;
-    background-color:  rgba(173, 216, 230, 0.1);
-    position: fixed;
-    z-index: 9;
-}
-
-#navbar {
-    color: #fff;
-    height: 10vh;
-    width: 39%; 
-}
-
-#navbar a {
-    color: #a7cde9;
-   width: 100%;
-   height: 100%;
-   padding: 2.5em;
-   margin: 0;
-   text-align: center;
-}
-
-#navbar li {
-    height: 10vh;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#navbar a::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 5px;
-    background-color: transparent;
-    left: -50%;
-    bottom: 0;
-    transform: translateX(50%);
-    
-}
-
-#navbar li:hover a::before {
-    background-color:  #232325;
-}
-
-
-ul {
-    height: 100%;
-    width: 100%;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 375px) {
-    ul {
-        margin-left: .2em;
-    }
-
-}
-
 
 /* ------ INTRO --------- */
 
@@ -235,33 +167,73 @@ span {
 /* ------- PORT ------*/
 
 .portfolio {
-    height: 450vh;
+    height: 3024px;
     width: 100vw;
 }
 
 @media (max-width: 1200px) {
     .portfolio {
-        height: 300vh;
+        height: 2500px;
     }
 }
 
 @media (max-width: 1000px) {
     .portfolio {
-        height: 275vh;
+        height: 2400px;
     }
 }
 
 @media (max-width: 900px) {
     .portfolio {
-        height: 250vh;
+        height: 2200px;
     }
 }
 
+@media (max-width: 800px) {
+    .portfolio {
+        height: 1950px;
+    }
+}
 
+@media (max-width: 700px) {
+    .portfolio {
+        height: 1800px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio {
+        height: 1500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolio {
+        height: 1400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .portfolio {
+        height: 1300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .portfolio {
+        height: 1200px;
+    }
+}
+
+@media (max-width: 350px) {
+    .portfolio {
+        height: 1075px;
+    }
+}
 
 .left-port {
     position: sticky;
-    top: 25vh;
+    top: 50px;
     float: left;
     width: 39%;
     height: 300px;
@@ -350,14 +322,9 @@ span {
 
 @media (max-width: 800px) {
 
-   .portfolio {
-    height: 165vh;
-    text-align: center;
-    }
-
     .project-contain {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
 
     .project-contain h2 {
@@ -379,10 +346,10 @@ span {
    }
 
 }
-
-@media (max-width: 600px) {
-    .portfolio {
-        height: 120vh;
+@media (max-width: 700px) {
+    .project-contain{
+        height: 150px;
+        width: 150px;
     }
 }
 
